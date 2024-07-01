@@ -1,0 +1,64 @@
+.login-page {
+  text-align: center;
+  background: linear-gradient(to right, #fffccc, #ccffff);
+  /* Gradient for the overall page */
+  height: 100vh;
+  /* Adjust height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  background-color: linear-gradient(to right, #fffccc, #ccffff);
+  /* Background color for the form container */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Optional: add a shadow effect */
+}
+
+.login-page h2 {
+  margin-bottom: 20px;
+}
+
+.login-page form {
+  text-align: left;
+}
+
+.login-page div {
+  margin-bottom: 10px;
+}
+
+.login-page label {
+  display: block;
+}
+
+.login-page input {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-page button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  /* Green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.login-page button:hover {
+  background-color: #45a049;
+  /* Darker green on hover */
+}
+
+.login-page .error {
+  color: red;
+  margin-top: 10px;
+}
